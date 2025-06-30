@@ -1,7 +1,8 @@
-package exercisesJava;
+package com.miempresa.main;
 
 import java.util.Scanner;
-
+import com.miempresa.exercisesJava.ExercisesJava;
+import com.miempresa.exercisesJava.exerciseHeritage.MenuPlanta;
 
 
 public class Main {
@@ -53,6 +54,10 @@ public class Main {
 						System.out.println("----------------------------------------------------------------------------");
 						ExercisesJava d = new ExercisesJava();
 						d.exerciseD(scan);
+						break;
+					case "E":
+						MenuPlanta e = new MenuPlanta();
+						e.menu(scan);
 						break;
 					default:
 						System.out.println("----------------------------------------------------------------------------");
