@@ -34,25 +34,30 @@ public class Main {
 				break; 
 			}else {
 				switch(exerciseOption.toUpperCase()) {
-				case "A":
-					System.out.println("----------------------------------------------------------------------------");
-					ExercisesJava a = new ExercisesJava();
-					a.exerciseA(scan);
-					break;
-				case "B":
-					System.out.println("----------------------------------------------------------------------------");
-					ExercisesJava b = new ExercisesJava();
-					b.exerciseB(scan);
-					break;
-				case "C":
-					System.out.println("----------------------------------------------------------------------------");
-					ExercisesJava c = new ExercisesJava();
-					c.exerciseC(scan);
-					break;
-				default:
-					System.out.println("----------------------------------------------------------------------------");
-					System.out.println("Ejercicio no encontrado...");
-					break;
+					case "A":
+						System.out.println("----------------------------------------------------------------------------");
+						ExercisesJava a = new ExercisesJava();
+						a.exerciseA(scan);
+						break;
+					case "B":
+						System.out.println("----------------------------------------------------------------------------");
+						ExercisesJava b = new ExercisesJava();
+						b.exerciseB(scan);
+						break;
+					case "C":
+						System.out.println("----------------------------------------------------------------------------");
+						ExercisesJava c = new ExercisesJava();
+						c.exerciseC(scan);
+						break;
+					case "D":
+						System.out.println("----------------------------------------------------------------------------");
+						ExercisesJava d = new ExercisesJava();
+						d.exerciseD(scan);
+						break;
+					default:
+						System.out.println("----------------------------------------------------------------------------");
+						System.out.println("Ejercicio no encontrado...");
+						break;
 				}
 			}
 		}
